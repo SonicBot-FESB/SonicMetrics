@@ -1,0 +1,24 @@
+{
+  "links": {
+    "labels": "/api/v2/buckets/4809d22611030624/labels",
+    "members": "/api/v2/buckets/4809d22611030624/members",
+    "org": "/api/v2/orgs/a241b8fb1aa2a6bc",
+    "owners": "/api/v2/buckets/4809d22611030624/owners",
+    "self": "/api/v2/buckets/4809d22611030624",
+    "write": "/api/v2/write?org=a241b8fb1aa2a6bc\u0026bucket=4809d22611030624"
+  },
+  "id": "4809d22611030624",
+  "type": "user",
+  "name": "TestBucket",
+  "orgID": "a241b8fb1aa2a6bc",
+  "createdAt": "2023-02-03T15:15:44.762411+00:00",
+  "updatedAt": "2023-02-03T15:15:44.762411+00:00",
+  "retentionRules": [
+    {
+      "type": "expire",
+      "everySeconds": 3600,
+      "shardGroupDurationSeconds": 3600
+    }
+  ],
+  "labels": []
+}
